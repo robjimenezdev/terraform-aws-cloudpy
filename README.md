@@ -11,6 +11,9 @@ Infraestructura como código para cloudpy.es usando Terraform y AWS.
 - Paso1/ — primer recurso S3, ciclo init/plan/apply/destroy
 - Paso2/ — variables, locals, outputs y remote state en S3
 - Paso3/ — módulos reutilizables y data sources
+- paso4/ — IAM, Lambda y DynamoDB con dependencias implícitas
+- paso5/ — workspaces, terraform import y gestión de drift
+- paso6/ — lifecycle rules, prevent_destroy y sensitive variables
 
 ## Requisitos
 - Terraform >= 1.0
