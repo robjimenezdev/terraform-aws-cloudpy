@@ -31,5 +31,5 @@ jobs:
         working-directory: paso7
 
       - name: Terraform Plan
-        run: terraform plan
+        run: terraform plan -var="bucket_name=cloudpy-web" -var="table_name=cloudpy-leads" -var="lambda_name=cloudpy-formulario" -var="lambda_role_arn=${{ secrets.LAMBDA_ROLE_ARN }}"
         working-directory: paso7
