@@ -14,6 +14,8 @@ Infraestructura como código para cloudpy.es usando Terraform y AWS.
 - paso4/ — IAM, Lambda y DynamoDB con dependencias implícitas
 - paso5/ — workspaces, terraform import y gestión de drift
 - paso6/ — lifecycle rules, prevent_destroy y sensitive variables
+- paso7/ — importación de infra real de cloudpy.es (S3, Lambda, DynamoDB)
+- paso8/ — CI/CD con GitHub Actions, terraform plan en PR y apply en merge
 
 ## Requisitos
 - Terraform >= 1.0
