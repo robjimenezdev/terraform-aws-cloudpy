@@ -22,7 +22,7 @@ Infraestructura como código para cloudpy.es usando Terraform y AWS.
 - AWS CLI configurado con SSO
 
 ## Cómo ejecutar
-1. aws sso login --profile cloudpy
+1. aws sso login --profile name
 2. cd semana1
 3. terraform init
 4. terraform plan
